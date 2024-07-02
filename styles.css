@@ -3,10 +3,6 @@
     src: url(Norse-Bold.otf);
 }
 
-* {
-    /* border: 1px solid red; */
-}
-
 body {
     display: flex;
     width: 100%;
@@ -133,7 +129,7 @@ button,
     font-size: 14px ;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
     #input-fields {
         flex-direction: row;
         flex-wrap: wrap;
@@ -148,6 +144,17 @@ button,
     body {
         flex-direction: row;
     }
+
+    .pw-reqs {
+        width: 100%;
+    }
+    
+}
+
+.pw-reqs {
+    font-size: .6em;
+    margin-top: -10px;
+    
     
 }
 
